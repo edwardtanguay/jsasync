@@ -8,7 +8,7 @@ prom1.then((value) => {
 	console.log(value);
 });
 
-console.log('promise: ', prom1);
+//console.log('promise: ', prom1);
 
 setTimeout(() => {
 	console.log('promise again: ', prom1);
